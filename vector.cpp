@@ -3,17 +3,18 @@
 //Definiciones
 
 void cargar_datos(Vector &par_vector){								//Carga los datos
-	//FEDE
-	par_vector.lista.at(0) = 12;
-	par_vector.lista.at(1) = 21;
-	par_vector.lista.at(2) = 35;
-	par_vector.lista.at(3) = 45;
-	par_vector.lista.at(4) = 54;
-	par_vector.lista.at(5) = 62;
-	par_vector.lista.at(6) = 75;
-	par_vector.lista.at(7) = 88;
-	par_vector.lista.at(8) = 89;
-	par_vector.lista.at(9) = 95;
+//	FEDE
+//	par_vector.lista.at(0) = 12;
+//	par_vector.lista.at(1) = 21;
+//	par_vector.lista.at(2) = 35;
+//	par_vector.lista.at(3) = 45;
+//	par_vector.lista.at(4) = 54;
+//	par_vector.lista.at(5) = 62;
+//	par_vector.lista.at(6) = 75;
+//	par_vector.lista.at(7) = 88;
+//	par_vector.lista.at(8) = 89;
+//	par_vector.lista.at(9) = 95;
+	par_vector.lista = {12,21,35,45,54,62,75,88,89,95};
 	par_vector.top = 9;
 }
 
