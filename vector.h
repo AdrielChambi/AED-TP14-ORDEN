@@ -14,7 +14,8 @@ struct Vector {														//Tipo de Dato Vector
 };
 
 void cargar_datos(Vector &par_vector);															//Carga los datos
-void ordenar_vector(Vector &par_vector, const unsigned &par_tipo);														//Odena el Vector
+void mostrar_vector(Vector &par_vector);
+void ordenar_vector(Vector &par_vector, const unsigned &par_tipo);								//Odena el Vector
 void ordenar_selection(Vector &par_vector);
 void ordenar_insert(Vector &par_vector);
 void ordenar_burbuja(Vector &par_vector);

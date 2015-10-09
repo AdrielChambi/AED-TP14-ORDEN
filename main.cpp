@@ -10,7 +10,7 @@ Se necesita probar los diferentes tipos de ordenamiento:
 - 1. Seleccion.
 - 2. Insercion.
 - 3. Burbuja.
-- 4. quicksort
+- 4. Quicksort
 
 PRE-CONDICIONES:
 El usuario no ingresa nada, el vector esta previamente cargado
@@ -36,9 +36,13 @@ int main(int argc, char** argv) {
 	//Desarrollo
 	for (unsigned i = 1; i <= 4; i++){
 		cargar_datos(var_vector);
+		
+		cout<<"Lista Desordenada:"<<endl;
+		mostrar_vector(var_vector);
+		
 		ordenar_vector(var_vector,i);
 		if(verificar_orden(var_vector)){
-			cout<<"Ordenado Correcto"<<endl;
+			cout<<"Ordenado Correcto"<<endl<<endl;
 		}
 		else{
 			cout<<"Mal Ordenado"<<endl;
